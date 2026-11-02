@@ -6,9 +6,9 @@ Pedalera modular para guitarra: amplificadores neurales **NAM**, cabinas IR dobl
 
 | Sistema | Archivo |
 |---|---|
-| **Windows 10/11 (64 bits)** | [KumAmp-0.1.4-Windows-x64-Setup.exe](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.4/KumAmp-0.1.4-Windows-x64-Setup.exe) |
-| **macOS 12+ (Apple Silicon e Intel)** | [KumAmp-0.1.4-macOS-Universal.pkg](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.4/KumAmp-0.1.4-macOS-Universal.pkg) |
-| Instrucciones para Mac | [LEEME-Mac.txt](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.4/LEEME-Mac.txt) |
+| **Windows 10/11 (64 bits)** | [KumAmp-0.1.5-Windows-x64-Setup.exe](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.5/KumAmp-0.1.5-Windows-x64-Setup.exe) |
+| **macOS 12+ (Apple Silicon e Intel)** | [KumAmp-0.1.5-macOS-Universal.pkg](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.5/KumAmp-0.1.5-macOS-Universal.pkg) |
+| Instrucciones para Mac | [LEEME-Mac.txt](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.5/LEEME-Mac.txt) |
 
 Todas las versiones: [Releases](https://github.com/kumikocaro/KumAmp-downloads/releases)
 
@@ -22,7 +22,7 @@ Todas las versiones: [Releases](https://github.com/kumikocaro/KumAmp-downloads/r
 ### Mac
 1. Haz **clic derecho → Abrir** sobre el `.pkg` (la primera vez macOS lo bloquea por ser una versión de prueba no notarizada). Si no aparece "Abrir": *Ajustes del Sistema → Privacidad y seguridad → Abrir igualmente*.
 2. Se instalan **VST3**, **Audio Unit** (Logic, GarageBand) y la **aplicación**.
-3. Detalles en [LEEME-Mac.txt](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.4/LEEME-Mac.txt).
+3. Detalles en [LEEME-Mac.txt](https://github.com/kumikocaro/KumAmp-downloads/releases/download/v0.1.5/LEEME-Mac.txt).
 
 ## Modelos e IRs
 KumAmp no incluye modelos: descarga capturas `.nam` (por ejemplo en tone3000.com) e IRs `.wav`, y cárgalos desde los bloques **Amp** y **Cab**.
