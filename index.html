@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KumAmp: contenido para la web</title>
+<style>
+  body { max-width: 900px; margin: 0 auto; padding: 24px 16px; font-family: sans-serif; line-height: 1.5; }
+  img { display: block; width: 100%; height: auto; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #999; padding: 6px 8px; text-align: left; vertical-align: top; }
+  pre { overflow-x: auto; padding: 12px; border: 1px solid #999; }
+  a { overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+
+<h1>KumAmp: contenido para la web</h1>
+<p>Datos, textos e imágenes de KumAmp para publicarlo en kumodev. Versión publicada: 0.1.9, del 6 de noviembre de 2026.</p>
+<p>Las imágenes están en la carpeta <code>capturas/</code>, al lado de este archivo. Miden 1500 × 880 px. La foto del autor está aparte, en <code>capturas/kumo-caro.jpg</code>, de 1248 × 912 px.</p>
+
+<h2>Qué es</h2>
+<table>
+  <tr><th>Nombre</th><td>KumAmp</td></tr>
+  <tr><th>Tipo</th><td>Pedalera modular para guitarra y bajo, con modelado neural de amplificadores</td></tr>
+  <tr><th>Autor</th><td>Kumo Caro</td></tr>
+  <tr><th>Web del autor</th><td><a href="https://www.kumodev.com">https://www.kumodev.com</a></td></tr>
+  <tr><th>Formatos</th><td>VST3, AU y aplicación independiente. AU solo en Mac.</td></tr>
+  <tr><th>Sistemas</th><td>macOS 12 o posterior (Apple Silicon e Intel). Windows 10 o posterior (64 bits).</td></tr>
+  <tr><th>Licencia</th><td>Software libre, GNU GPLv3</td></tr>
+  <tr><th>Tecnología</th><td>C++, JUCE 8, NeuralAmpModelerCore</td></tr>
+</table>
+
+<h2>Enlaces</h2>
+<table>
+  <tr><th>Botón de descarga</th><td><a href="https://github.com/kumikocaro/KumAmp-downloads/releases/latest">https://github.com/kumikocaro/KumAmp-downloads/releases/latest</a><br>Siempre lleva a la última versión publicada.</td></tr>
+  <tr><th>Todas las versiones</th><td><a href="https://github.com/kumikocaro/KumAmp-downloads/releases">https://github.com/kumikocaro/KumAmp-downloads/releases</a></td></tr>
+  <tr><th>Código fuente</th><td><a href="https://github.com/kumikocaro/KumAmp">https://github.com/kumikocaro/KumAmp</a></td></tr>
+  <tr><th>Datos de la última versión</th><td><a href="https://api.github.com/repos/kumikocaro/KumAmp-downloads/releases/latest">https://api.github.com/repos/kumikocaro/KumAmp-downloads/releases/latest</a></td></tr>
+</table>
+<p>Los enlaces directos a cada instalador cambian en cada versión, porque el archivo lleva el número en el nombre. En esa dirección de datos, el instalador de Mac termina en <code>.pkg</code> y el de Windows en <code>.exe</code>.</p>
+
+<h2>Textos</h2>
+<p><strong>Título:</strong> KUMAMP</p>
+<p><strong>Bajada:</strong> Una pedalera entera, un amplificador neural y un campo para perderse.</p>
+<p><strong>Descripción corta:</strong> Pedalera modular para guitarra y bajo. Armá tu cadena con 34 bloques, cargá modelos de amplificador NAM y elegí cómo trabajar: con todo el detalle, de la forma más simple o explorando sonidos que no sabías que buscabas.</p>
+<p><strong>Descripción larga:</strong> KumAmp junta en un solo plugin amplificadores neurales, gabinetes, efectos e instrumentos que se tocan con la guitarra. La cadena se arma como un circuito, en serie o en paralelo, con cuatro escenas por preset. Tiene tres formas de usarse: Grid para controlar cada detalle, Simp para entender qué hace cada cosa con una sola perilla, y Campo para deformar y fusionar efectos hasta encontrar un sonido nuevo. Es software libre, y funciona en Mac y Windows dentro de tu DAW o por su cuenta.</p>
+
+<h2>Imágenes y qué muestra cada una</h2>
+
+<h3>Grid</h3>
+<p>Archivo: <code>capturas/1-grid.png</code></p>
+<img src="capturas/1-grid.png" alt="Vista Grid de KumAmp: la cadena de efectos sobre un campo color hueso, con el amplificador seleccionado y sus perillas abajo." width="1500" height="880" loading="lazy">
+<p>La vista completa. Muestra la cadena de bloques de entrada a salida, y abajo los controles del bloque elegido. A la izquierda están el afinador, la entrada, el gate y el pitch. Sirve para controlar cada parámetro, armar rutas en paralelo y usar cuatro escenas por preset.</p>
+
+<h3>Simp</h3>
+<p>Archivo: <code>capturas/2-simp.png</code></p>
+<img src="capturas/2-simp.png" alt="Modo Simp de KumAmp: seis íconos de presets arriba y una tarjeta numerada por cada efecto, con una frase y una perilla." width="1500" height="880" loading="lazy">
+<p>La misma cadena, explicada. Cada efecto es una tarjeta numerada con una frase que dice para qué sirve, un botón de encendido y una sola perilla. Arriba hay seis sonidos a un toque: Clean, High Gain, Crunch, Synth, Blues y Sitar. Comparte los valores con el Grid.</p>
+
+<h3>Campo</h3>
+<p>Archivo: <code>capturas/3-campo.png</code></p>
+<img src="capturas/3-campo.png" alt="Vista Campo de KumAmp: formas elásticas con anillos de colores sobre papel color hueso, una de ellas estirada y dos fusionadas." width="1500" height="880" loading="lazy">
+<p>Un instrumento aparte, con su propia copia de la cadena, que no toca el Grid. Arrastrá una forma para transformar su efecto, estirala para que oscile y superponé dos para fusionarlas: la salida de cada efecto entra al otro. Lo que descubras se guarda como tono en el mismo Campo.</p>
+
+<h3>Campo con tampura</h3>
+<p>Archivo: <code>capturas/4-campo-tampura.png</code></p>
+<img src="capturas/4-campo-tampura.png" alt="Vista Campo de KumAmp con el tampura encendido: un mandala de pétalos de todos los colores en el centro." width="1500" height="880" loading="lazy">
+<p>El tampura, el drone del Sitar, tiene su propia forma: un mandala de colores. Moverlo transforma el drone. Superponerlo con otra forma hace que el drone pase por ese efecto.</p>
+
+<h3>EQ</h3>
+<p>Archivo: <code>capturas/5-eq.png</code></p>
+<img src="capturas/5-eq.png" alt="Ecualizador paramétrico de KumAmp en grande, con la curva de respuesta y un analizador de frecuencias." width="1500" height="880" loading="lazy">
+<p>El ecualizador paramétrico de 8 bandas, en grande: curva de respuesta sobre un analizador en vivo.</p>
+
+<h3>Settings</h3>
+<p>Archivo: <code>capturas/7-settings.png</code></p>
+<img src="capturas/7-settings.png" alt="Pantalla Settings de KumAmp: sensibilidad de detección de notas, control MIDI y guitarra a MIDI." width="1500" height="880" loading="lazy">
+<p>La sensibilidad de detección de notas, el control por MIDI y la salida de guitarra a MIDI.</p>
+
+<h3>Acerca de</h3>
+<p>Archivo: <code>capturas/8-acerca-de.png</code></p>
+<img src="capturas/8-acerca-de.png" alt="Sección Acerca de KumAmp: retrato de Kumo Caro con auriculares y cintas rojas y color hueso, su nombre y www.kumodev.com." width="1500" height="880" loading="lazy">
+<p>La sección con el autor, su página, la versión y la licencia.</p>
+
+<h3>Foto del autor</h3>
+<p>Archivo: <code>capturas/kumo-caro.jpg</code></p>
+<img src="capturas/kumo-caro.jpg" alt="Retrato de Kumo Caro con auriculares, de los que salen cintas rojas y color hueso, sobre fondo negro." width="1248" height="912" loading="lazy">
+
+<h2>Funciones</h2>
+<ul>
+  <li>Modelos de amplificador NAM, con búsqueda y descarga desde TONE3000 dentro del plugin.</li>
+  <li>IR Loader doble con 11 gabinetes propios y 55 respuestas de micrófono.</li>
+  <li>Cadena con rutas en serie y en paralelo, y compensación de latencia.</li>
+  <li>Cuatro escenas por preset, con cambios sin cortes.</li>
+  <li>Instrumentos que se tocan con la guitarra: Guitar Synth, Sitar con tampura, Charango y Sampler de cualquier sonido.</li>
+  <li>Repeat Percussion, con Cortina para que el sonido siga sonando.</li>
+  <li>Guitarra a MIDI y control por MIDI (escenas y macros).</li>
+  <li>Afinador, noise gate y pitch shifter globales.</li>
+  <li>Sincronía de delays y modulaciones con el tempo del DAW.</li>
+  <li>18 presets de referencia en 6 categorías.</li>
+</ul>
+
+<h2>Los 34 bloques</h2>
+<table>
+  <tr><th>Familia</th><th>Bloques</th></tr>
+  <tr><td>Pitch</td><td>Pitch Shifter, Wah, Auto Wah, Octaver</td></tr>
+  <tr><td>Experimental</td><td>Guitar Synth, Sitar, Charango, Sampler</td></tr>
+  <tr><td>Dinámica</td><td>Noise Gate, Compresor, Transient Shaper</td></tr>
+  <tr><td>EQ</td><td>Paramétrico, Gráfico</td></tr>
+  <tr><td>Drive</td><td>Overdrive</td></tr>
+  <tr><td>Amp y gabinete</td><td>NAM, IR Loader</td></tr>
+  <tr><td>Modulación</td><td>Chorus, Flanger, Phaser, Tremolo, Rotary, Univibe, Bitcrusher</td></tr>
+  <tr><td>Delay</td><td>Digital, Analog, Tape, Reverse, Repeat Percussion</td></tr>
+  <tr><td>Reverb</td><td>Plate, Hall, Spring, Shimmer, Cloud</td></tr>
+  <tr><td>Utilidad</td><td>Volumen</td></tr>
+</table>
+
+<h2>Avisos para la página de descarga</h2>
+<ul>
+  <li>Es una versión de prueba. Los instaladores no están firmados, así que el sistema avisa al abrirlos.</li>
+  <li>Mac: la primera vez, clic derecho sobre el instalador y "Abrir". Si no aparece, en Ajustes del Sistema &gt; Privacidad y seguridad, "Abrir igualmente".</li>
+  <li>Windows: puede aparecer un aviso de SmartScreen.</li>
+  <li>Los modelos NAM no vienen incluidos. Se bajan aparte desde TONE3000, también desde dentro del plugin, y cada uno tiene la licencia de su autor.</li>
+</ul>
+
+<h2>Sobre las imágenes</h2>
+<p>Son capturas de una herramienta de prueba del proyecto, no de una sesión real. En Grid el campo del preset está vacío y el amplificador usa <code>wavenet.nam</code>, un modelo de ejemplo. En el Campo, las posiciones de las formas y las fichas de tonos son de prueba.</p>
+
+<h2>Créditos</h2>
+<p>Usa JUCE, el SDK de VST3, el SDK de ASIO, NeuralAmpModelerCore, Eigen y nlohmann/json. Tipografías Jost e IBM Plex Mono. Lista completa con licencias: <a href="https://github.com/kumikocaro/KumAmp/blob/main/THIRD_PARTY_NOTICES.md">https://github.com/kumikocaro/KumAmp/blob/main/THIRD_PARTY_NOTICES.md</a></p>
+
+</body>
+</html>
